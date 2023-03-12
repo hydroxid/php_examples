@@ -3,16 +3,13 @@
 /**
  * 1
 */
-
-function addTextWithCallable($string) {
+function addTextWithCallback(string $string) {
   return $string . " + text from callable\n";
 }
-
-function printMessage($string, $callable) {
+function printMessage(string $string, callable $callable) {
   echo $callable($string);
 }
-
-printMessage("(1) Hello world", "addTextWithCallable");
+printMessage("(1) Hello world", "addTextWithCallback");
 
 
 /**
