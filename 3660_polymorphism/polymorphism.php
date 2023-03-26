@@ -7,17 +7,17 @@ class Parent1 {
     }
 }
 
-class Child1 {
+class Child1 extends Parent1 {
     public function speak()
     {
         echo 'Child1' . PHP_EOL;
     }
 }
 
-class Child2 {
+class Parent2 {
     public function speak()
     {
-        echo 'Child2' . PHP_EOL;
+        echo 'Parent2' . PHP_EOL;
     }
 }
 
@@ -27,7 +27,7 @@ class Child2 {
 */
 (new Parent1())->speak();
 (new Child1())->speak();
-(new Child2())->speak();
+(new Parent2())->speak();
 
 
 /**
@@ -36,7 +36,7 @@ class Child2 {
 $arr = [];
 $arr[] = new Parent1();
 $arr[] = new Child1();
-$arr[] = new Child2();
+$arr[] = new Parent2();
 
 foreach ($arr as $a)
 {
