@@ -35,16 +35,16 @@ interface MyInterface{
    }
  }
 
-   class SecondaClass implements MyInterface{
+   class SecondClass implements MyInterface{
    public function index(){
-       echo 'SecondaClass Index '.self::CONSTANT_CI . PHP_EOL;
+       echo 'SecondClass Index '.self::CONSTANT_CI . PHP_EOL;
    }
  }
 
 $f = new FirstClass;
 $f->index();
 
-$s = new SecondaClass;
+$s = new SecondClass;
 $s->index();
 
 
