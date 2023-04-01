@@ -5,7 +5,7 @@
 *
 * Factory Method with interface and abstract class
 */
-abstract class Builder
+abstract class Factory
 {
     abstract public function factoryMethod() : Item;
 
@@ -17,7 +17,7 @@ abstract class Builder
     }
 }
 
-class BookBuilder extends Builder
+class BookFactory extends Factory
 {
     public function factoryMethod() : Item
     {
@@ -25,7 +25,7 @@ class BookBuilder extends Builder
     }
 }
 
-class MealBuilder extends Builder
+class MealFactory extends Factory
 {
     public function factoryMethod() : Item
     {
@@ -54,13 +54,13 @@ class Meal implements Item
     }
 }
 
-function create(Builder $builder)
+function create(Factory $factory)
 {
-    return $builder->init();
+    return $factory->init();
 }
 
-$book = create(new BookBuilder());
-$meal = create(new MealBuilder());
+$book = create(new BookFactory());
+$meal = create(new MealFactory());
 
 var_dump($book);
 var_dump($meal);
