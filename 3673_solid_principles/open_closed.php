@@ -6,7 +6,7 @@
 * EN: The Open–closed principle: "Software entities ... should be open for extension, but closed for modification."
 * CZ: trida by mela byt otevrena rozsireni, ale uzavrena modifikacim
 *
-* info src https://en.wikipedia.org/wiki/SOLID
+* info src https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
 * code src https://youtu.be/M5gmbkQQNQQ
 */
 

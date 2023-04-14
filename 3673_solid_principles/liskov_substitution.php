@@ -6,7 +6,7 @@
 * EN: The Liskov substitution principle: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."[8] See also design by contract.
 * CZ: metody tridy, ktere maji stejny interface, by mely vracet stejny vysledek (datovy typ)
 *
-* info src https://en.wikipedia.org/wiki/SOLID
+* info src https://en.wikipedia.org/wiki/Liskov_substitution_principle
 * code src https://youtu.be/M5gmbkQQNQQ
 */
 
