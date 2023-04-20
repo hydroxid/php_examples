@@ -2,7 +2,7 @@
 
 /**
 * SOLID principles
-* Single-responsibility principle
+* Open–closed principle
 * EN: The Open–closed principle: "Software entities ... should be open for extension, but closed for modification."
 * CZ: trida by mela byt otevrena rozsireni, ale uzavrena modifikacim
 *

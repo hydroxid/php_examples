@@ -2,7 +2,7 @@
 
 /**
 * SOLID principles
-* Open–closed principle
+* Single-responsibility principle
 * EN: The Single-responsibility principle: "There should never be more than one reason for a class to change."[5] In other words, every class should have only one responsibility.
 * CZ: je jen jeden duvod proc bychom meli zmenit chovani tridy => kazda trida ma mit pouze jednu zodpovednost
 *
