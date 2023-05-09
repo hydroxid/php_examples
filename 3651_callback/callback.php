@@ -19,12 +19,12 @@ $resultArrow = array_map(
 );
 print_r($resultArrow);
 
-// 0c. - anonymous function amCallback()
-function amCallback($item) {
+// 0c. - anonymous function afCallback()
+function afCallback($item) {
     return '(0c) item: ' . $item + 1;
 }
-$resultArrow = array_map('amCallback', $array);
-print_r($resultArrow);
+$resultAfc = array_map('afCallback', $array);
+print_r($resultAfc);
 
 
 /**
